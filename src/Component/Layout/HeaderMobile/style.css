@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+    .header-mobile-fixed .header-mobile {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 97;
+        height: 55px;
+        min-height: 55px;
+    }
+
+    .header-mobile {
+        background-color: #0021cf !important;
+        background-image: linear-gradient(to right, #0021cf, #070b5b);
+    }
+
+    .header-mobile .btn .svg-icon svg g [fill],
+    .header-mobile .btn:hover .svg-icon svg g [fill] {
+        fill: #fff !important;
+    }
+
+    .header-mobile .btn i {
+        color: #fff !important;
+    }
+}
